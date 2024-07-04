@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap; /* To wrap the cards onto the next line if they exceed the container width */
+  justify-content: center;
+  margin: 1rem;
+}
+
+.animal {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.card-animal {
+  height: 20rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Optional: To add a border around each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: To add a shadow around each card */
+  margin: 1rem; /* To add spacing between the cards */
+}
+
+.card-animal-love {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 110px;
+  width: 100px;
+}
